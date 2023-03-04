@@ -1,16 +1,17 @@
-echo 'Install Util Packages'
+echo '########### Install Util Packages ###########'
 sh install-util-packages.sh
 
-echo 'Install nagbuster'
+echo '########### Install nagbuster ###########'
 sh install-nagbuster.sh
 
-echo 'Disable HA service'
+echo '########### Disable HA service ###########'
 sh disable-ha-service.sh
 
-echo 'Install log2ram'
+echo '########### Install log2ram ###########'
 sh install-log2ram.sh
 
-echo 'Setup Admin'
+echo '########### Setup Admin ###########'
 sh setup-debian-admin.sh
 
-echo "Install finished - It's recommended to reboot"
+echo "########### Install finished ###########"
+echo "It's recommended to reboot"
