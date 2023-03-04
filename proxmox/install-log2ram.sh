@@ -2,3 +2,5 @@ echo "deb [signed-by=/usr/share/keyrings/azlux-archive-keyring.gpg] http://packa
 wget -O /usr/share/keyrings/azlux-archive-keyring.gpg  https://azlux.fr/repo.gpg
 apt update
 apt install log2ram
+
+cp resources/log2ram.conf /etc/
